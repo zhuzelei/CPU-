@@ -1,0 +1,121 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.3 (win64) Build 1368829 Mon Sep 28 20:06:43 MDT 2015
+| Date         : Mon May 28 11:22:01 2018
+| Host         : LAPTOP-A6OI27A9 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file SingleCPU_control_sets_placed.rpt
+| Design       : SingleCPU
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    68 |
+| Minimum Number of register sites lost to control set restrictions |    23 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              26 |           10 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              26 |            7 |
+| Yes          | No                    | No                     |             488 |          335 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              13 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+------------------------+------------------------+------------------+----------------+
+|      Clock Signal     |      Enable Signal     |    Set/Reset Signal    | Slice Load Count | Bel Load Count |
++-----------------------+------------------------+------------------------+------------------+----------------+
+|  CLK_IBUF_BUFG        |                        |                        |                1 |              1 |
+| ~div/CLK              |                        |                        |                1 |              4 |
+|  miao/E[0]            |                        |                        |                2 |              7 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[60][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[0][0][0]    |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[9][0][0]    |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[8][0][0]    |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[7][0][0]    |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[6][0][0]    |                        |                7 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[53][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[5][0]_0[0]  |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[59][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[58][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[57][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[56][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[55][0][0]   |                        |                4 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[54][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[52][0]_3[0] |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[51][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[50][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[4][0][0]    |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[49][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[48][0]_0[0] |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[47][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[46][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[45][0]_0[0] |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[44][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[43][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[42][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[41][0][0]   |                        |                7 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[40][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[3][0][0]    |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[39][0][0]   |                        |                7 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[38][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[37][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[36][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[35][0][0]   |                        |                7 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[34][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[33][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[32][0]_2[0] |                        |                7 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[31][0][0]   |                        |                7 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[30][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[2][0]_3[0]  |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[29][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[28][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[27][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[26][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[25][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[24][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[23][0][0]   |                        |                7 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[22][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[21][0][0]   |                        |                4 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[20][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[1][0]_0[0]  |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[19][0][0]   |                        |                4 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[18][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[17][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[16][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[15][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[14][0]_0[0] |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[13][0][0]   |                        |                6 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[12][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[11][0][0]   |                        |                5 |              8 |
+| ~BTNR_IBUF_BUFG       | cu/ram_reg[10][0][0]   |                        |                4 |              8 |
+|  BTNR_IBUF_BUFG       | cu/E[0]                | pc/addr_rep[6]_i_1_n_0 |                4 |             13 |
+|  pc/addr_reg_rep[6]_0 |                        |                        |                6 |             14 |
+|  CLK_IBUF_BUFG        |                        | div/clear              |                7 |             26 |
+| ~BTNR_IBUF_BUFG       | pc/p_0_in              |                        |               12 |             96 |
++-----------------------+------------------------+------------------------+------------------+----------------+
+
+

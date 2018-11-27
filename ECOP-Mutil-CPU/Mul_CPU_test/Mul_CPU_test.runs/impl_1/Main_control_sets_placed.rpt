@@ -1,0 +1,153 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.3 (win64) Build 1368829 Mon Sep 28 20:06:43 MDT 2015
+| Date         : Thu Jun 14 17:55:03 2018
+| Host         : LAPTOP-A6OI27A9 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Main_control_sets_placed.rpt
+| Design       : Main
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |   100 |
+| Minimum Number of register sites lost to control set restrictions |     3 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1741 |          806 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              40 |           22 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------------+-----------------------------+------------------+------------------+----------------+
+|                  Clock Signal                 |        Enable Signal        | Set/Reset Signal | Slice Load Count | Bel Load Count |
++-----------------------------------------------+-----------------------------+------------------+------------------+----------------+
+|  ALUoutDR/o_data_reg[7]_7[0]                  |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_1[0]                  |                             |                  |                2 |              8 |
+|  ALUoutDR/o_data_reg[7]_97[0]                 |                             |                  |                3 |              8 |
+|  ALUoutDR/o_data_reg[7]_94[0]                 |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_91[0]                 |                             |                  |                6 |              8 |
+|  ALUoutDR/o_data_reg[7]_88[0]                 |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_85[0]                 |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_82[0]                 |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_79[0]                 |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_76[0]                 |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_73[0]                 |                             |                  |                6 |              8 |
+|  ALUoutDR/o_data_reg[7]_70[0]                 |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_37[0]                 |                             |                  |                3 |              8 |
+|  ALUoutDR/o_data_reg[7]_64[0]                 |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_61[0]                 |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_58[0]                 |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_67[0]                 |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_55[0]                 |                             |                  |                7 |              8 |
+|  ALUoutDR/o_data_reg[7]_52[0]                 |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_49[0]                 |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_46[0]                 |                             |                  |                6 |              8 |
+|  ALUoutDR/o_data_reg[7]_43[0]                 |                             |                  |                3 |              8 |
+|  ALUoutDR/o_data_reg[7]_40[0]                 |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_4[0]                  |                             |                  |                3 |              8 |
+|  ALUoutDR/E[0]                                |                             |                  |                3 |              8 |
+|  ALUoutDR/o_data_reg[7]_34[0]                 |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_31[0]                 |                             |                  |                7 |              8 |
+|  ALUoutDR/o_data_reg[7]_28[0]                 |                             |                  |                3 |              8 |
+|  ALUoutDR/o_data_reg[7]_25[0]                 |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_22[0]                 |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_19[0]                 |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_187[0]                |                             |                  |                2 |              8 |
+|  ALUoutDR/o_data_reg[7]_184[0]                |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_181[0]                |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_175[0]                |                             |                  |                3 |              8 |
+|  ALUoutDR/o_data_reg[7]_172[0]                |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_169[0]                |                             |                  |                6 |              8 |
+|  ALUoutDR/o_data_reg[7]_178[0]                |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_166[0]                |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_163[0]                |                             |                  |                3 |              8 |
+|  ALUoutDR/o_data_reg[7]_160[0]                |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_16[0]                 |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_157[0]                |                             |                  |                6 |              8 |
+|  ALUoutDR/o_data_reg[7]_154[0]                |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_151[0]                |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_148[0]                |                             |                  |                3 |              8 |
+|  ALUoutDR/o_data_reg[7]_145[0]                |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_142[0]                |                             |                  |                2 |              8 |
+|  ALUoutDR/o_data_reg[7]_139[0]                |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_136[0]                |                             |                  |                3 |              8 |
+|  ALUoutDR/o_data_reg[7]_133[0]                |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_130[0]                |                             |                  |                6 |              8 |
+|  ALUoutDR/o_data_reg[7]_13[0]                 |                             |                  |                6 |              8 |
+|  ALUoutDR/o_data_reg[7]_127[0]                |                             |                  |                6 |              8 |
+|  ALUoutDR/o_data_reg[7]_124[0]                |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_121[0]                |                             |                  |                4 |              8 |
+|  ALUoutDR/o_data_reg[7]_118[0]                |                             |                  |                6 |              8 |
+|  ALUoutDR/o_data_reg[7]_115[0]                |                             |                  |                3 |              8 |
+|  ALUoutDR/o_data_reg[7]_112[0]                |                             |                  |                3 |              8 |
+|  ALUoutDR/o_data_reg[7]_106[0]                |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_103[0]                |                             |                  |                2 |              8 |
+|  ALUoutDR/o_data_reg[7]_109[0]                |                             |                  |                6 |              8 |
+|  ALUoutDR/o_data_reg[7]_100[0]                |                             |                  |                5 |              8 |
+|  ALUoutDR/o_data_reg[7]_10[0]                 |                             |                  |                6 |              8 |
+| ~ControlUnit/DFlipFlop/n_0_3716_BUFG_inst_n_1 |                             |                  |               12 |             32 |
+|  ControlUnit/DFlipFlop/o_data_reg[27][0]      |                             |                  |               14 |             32 |
+|  IR/E[0]                                      |                             |                  |               11 |             32 |
+|  IR/o_data_reg[31]_1[0]                       |                             |                  |               13 |             32 |
+|  IR/o_data_reg[31]_10[0]                      |                             |                  |               11 |             32 |
+|  IR/o_data_reg[31]_11[0]                      |                             |                  |               11 |             32 |
+|  IR/o_data_reg[31]_12[0]                      |                             |                  |               17 |             32 |
+|  IR/o_data_reg[31]_13[0]                      |                             |                  |               19 |             32 |
+|  IR/o_data_reg[31]_14[0]                      |                             |                  |               11 |             32 |
+|  IR/o_data_reg[31]_15[0]                      |                             |                  |               10 |             32 |
+|  IR/o_data_reg[31]_16[0]                      |                             |                  |               11 |             32 |
+|  IR/o_data_reg[31]_17[0]                      |                             |                  |               13 |             32 |
+|  IR/o_data_reg[31]_18[0]                      |                             |                  |               12 |             32 |
+|  IR/o_data_reg[31]_19[0]                      |                             |                  |               11 |             32 |
+|  IR/o_data_reg[31]_2[0]                       |                             |                  |               13 |             32 |
+|  IR/o_data_reg[31]_20[0]                      |                             |                  |               16 |             32 |
+|  IR/o_data_reg[31]_21[0]                      |                             |                  |               17 |             32 |
+|  IR/o_data_reg[31]_3[0]                       |                             |                  |               13 |             32 |
+|  IR/o_data_reg[31]_4[0]                       |                             |                  |               13 |             32 |
+|  IR/o_data_reg[31]_5[0]                       |                             |                  |               16 |             32 |
+|  IR/o_data_reg[31]_6[0]                       |                             |                  |               12 |             32 |
+|  IR/o_data_reg[31]_7[0]                       |                             |                  |               12 |             32 |
+|  IR/o_data_reg[31]_8[0]                       |                             |                  |               11 |             32 |
+|  IR/o_data_reg[31]_9[0]                       |                             |                  |               10 |             32 |
+|  n_10_2392_BUFG                               |                             |                  |               19 |             32 |
+|  n_1_2383_BUFG                                |                             |                  |               13 |             32 |
+|  n_2_2384_BUFG                                |                             |                  |               14 |             32 |
+|  n_3_2385_BUFG                                |                             |                  |               14 |             32 |
+|  n_4_2386_BUFG                                |                             |                  |               12 |             32 |
+|  n_5_2387_BUFG                                |                             |                  |               15 |             32 |
+|  n_6_2388_BUFG                                |                             |                  |               13 |             32 |
+|  n_7_2389_BUFG                                |                             |                  |               18 |             32 |
+|  n_8_2390_BUFG                                |                             |                  |               20 |             32 |
+|  n_9_2391_BUFG                                |                             |                  |               16 |             32 |
+| ~CLK_IBUF_BUFG                                | ControlUnit/DFlipFlop/IRWre |                  |               22 |             40 |
+|  CLK_IBUF_BUFG                                |                             |                  |               62 |            141 |
++-----------------------------------------------+-----------------------------+------------------+------------------+----------------+
+
+
